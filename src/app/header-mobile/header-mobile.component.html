@@ -1,0 +1,22 @@
+<header>
+  <span>David</span>
+  <img
+  *ngIf="menuOpen"
+    [src]="'../assets/img/' + 'burgerMenuOpen.png'"
+    class="burger-menu"
+    (click)="toggleMenu()"
+    alt="Menu"
+  />
+  <img 
+  *ngIf="!menuOpen"
+  [src]="'../assets/img/' + currentMenuImg"
+  class="burger-menu"
+  (click)="toggleMenu()"
+  alt="Menu"
+/>
+</header>
+<div class="mobileMenu" [ngClass]="menuOpen ? 'showMobileMenu' : ''">
+  <a href="#">Test</a>
+  <a href="#">Test</a>
+  <a href="#">Test</a>
+</div>

@@ -1,0 +1,31 @@
+header{
+    background-color:#141D2F;
+    padding: 37px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+        color: white;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 23px;
+    }
+
+    nav{
+        display: flex;
+        gap: 29px;
+    }
+
+    a{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 901px){
+    header{
+        display: none;
+    }
+}
