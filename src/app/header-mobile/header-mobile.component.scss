@@ -56,6 +56,7 @@ header {
   gap: 16px;
   transform: translateX(100%);
   transition: all ease-in-out 1s;
+  z-index: 99;
 }
 
 .showMobileMenu {
